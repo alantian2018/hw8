@@ -18,7 +18,7 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.scene.paint.Color;
 
-public class App extends Application {
+public class TicTacToe extends Application {
 
     public boolean isWin(char[][]board) {
         for (int i = 0; i < 3; i++) {
